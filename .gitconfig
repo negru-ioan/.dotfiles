@@ -1,0 +1,26 @@
+[user]
+	# email = negruioan@duck.com
+	email = ext.ioan.negru@revoinsurance.com
+	name = Negru Ioan
+[safe]
+	directory = *
+	directory = *
+	directory = *
+[alias]
+  ac = "!f() { git add . && git commit -m \"$@\"; }; f"
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	df = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	aa = add --all
+	cm = commit -m
+	pom = push origin master
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	autocrlf = input

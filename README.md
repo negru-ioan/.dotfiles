@@ -1,5 +1,8 @@
-default:
-https://vscode.dev/profile/github/01114e1dd732fa4854bf4637679bd580
+[default vscode profile](https://vscode.dev/profile/github/01114e1dd732fa4854bf4637679bd580)
+
+[autocomplete for cmd](https://chrisant996.github.io/clink/)
+
+[oh my posh](https://github.com/JanDeDobbeleer/oh-my-posh/releases)
 
 ## Steps to bootstrap a new Mac
 

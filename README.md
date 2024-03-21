@@ -1,3 +1,5 @@
+[latest vscode profile](https://vscode.dev/profile/github/100898167c935651719b86cf5192b669)
+
 [default vscode profile](https://vscode.dev/profile/github/01114e1dd732fa4854bf4637679bd580)
 
 [autocomplete for cmd](https://chrisant996.github.io/clink/)

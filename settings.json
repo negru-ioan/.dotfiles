@@ -83,7 +83,7 @@
 	},
 	"ecsstractor_port.bem_nesting": true,
 	"editor.wordWrap": "on",
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.unicodeHighlight.allowedCharacters": {
 		"е": true
 	},
@@ -106,7 +106,6 @@
 	"prettier.bracketSameLine": true,
 	"prettier.printWidth": 200,
 	"workbench.layoutControl.enabled": false,
-	"editor.fontFamily": "JetBrains mono",
 	"[dart]": {
 		"editor.formatOnSave": true,
 		"editor.formatOnType": true,
@@ -167,5 +166,28 @@
 		"javascriptreact",
 		"typescript",
 		"typescriptreact"
-	]
+	],
+	"explorer.compactFolders": false,
+	"yaml.schemas": {
+		"file:///home/ioan/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"atlascode.jira.jqlList": [
+		{
+			"id": "ab7e79a4-4117-4be1-b1e9-d394fa0e1a3b",
+			"enabled": true,
+			"name": "My revo-factory Issues",
+			"query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+			"siteId": "0786d892-49d2-490d-9ae3-4ccc4429511d",
+			"monitor": true
+		}
+	],
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.mouseWheelZoom": true,
+	"editor.fontFamily": "'Fira Code'",
+	"editor.fontLigatures": true,
+	"sync.gist": "100898167c935651719b86cf5192b669",
 }

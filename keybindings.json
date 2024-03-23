@@ -1,0 +1,20 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "ctrl+oem_3",
+		"command": "extension.ecsstractor_port_run"
+	},
+	{
+		"key": "alt+oem_3",
+		"command": "extension.ecsstractor_port_runwithbemandcomments"
+	},
+	{
+		"key": "ctrl+alt+1",
+		"command": "extension.ecsstractor_port_runwithbem"
+	},
+	{
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus"
+}
+]

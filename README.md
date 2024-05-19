@@ -1,4 +1,4 @@
-[latest vscode profile](https://vscode.dev/profile/github/100898167c935651719b86cf5192b669)
+[latest vscode profile](https://vscode.dev/editor/profile/github/a8248a9baa5b39635fa3908957fc0aa0)
 
 [default vscode profile](https://vscode.dev/profile/github/01114e1dd732fa4854bf4637679bd580)
 

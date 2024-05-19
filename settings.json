@@ -5,6 +5,9 @@
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
 	"security.workspace.trust.untrustedFiles": "open",
 	"explorer.confirmDelete": false,
 	"liveSassCompile.settings.generateMap": false,
@@ -13,7 +16,7 @@
 			"format": "expanded",
 			"autoprefix": "last 5 versions",
 			"extensionName": ".css",
-			"savePath": "/css/"
+			"savePath": "/css"
 		}
 	],
 	"editor.tokenColorCustomizations": {
@@ -65,10 +68,11 @@
 		}
 	},
 	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[scss]": {
-		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+		// "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[css]": {
 		"editor.defaultFormatter": "HookyQR.beautify"
@@ -88,7 +92,6 @@
 		"е": true
 	},
 	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.minimap.enabled": false,
 	"workbench.startupEditor": "newUntitledFile",
 	"editor.smoothScrolling": true,
 	"editor.minimap.renderCharacters": false,
@@ -158,15 +161,11 @@
 	"redhat.telemetry.enabled": false,
 	"prettier.useTabs": true,
 	"prettier.useEditorConfig": false,
+	"prettier.tabWidth": 2,
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit"
-	},	
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		"typescript",
-		"typescriptreact"
-	],
+	},
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
 	"explorer.compactFolders": false,
 	"yaml.schemas": {
 		"file:///home/ioan/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
@@ -185,9 +184,34 @@
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"editor.mouseWheelZoom": true,
 	"editor.fontFamily": "'Fira Code'",
 	"editor.fontLigatures": true,
 	"sync.gist": "100898167c935651719b86cf5192b669",
+	"prettier.arrowParens": "always",
+	"codeium.enableConfig": {
+		"*": true,
+		"prisma": true
+	},
+	"prettier.singleQuote": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[ftl]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"cloudcode.project": "revo-duet",
+	"cloudcode.duetAI.project": "revo-duet",
+	// "sonarlint.connectedMode.project": {
+	// 	"connectionId": "http-localhost-9002",
+	// 	"projectKey": "ou-app"
+	// },
+	"sonarlint.focusOnNewCode": false,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"editor.minimap.enabled": false,
+	"prisma.showPrismaDataPlatformNotification": false
 }

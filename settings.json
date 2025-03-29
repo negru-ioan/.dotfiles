@@ -1,9 +1,8 @@
 {
 	"workbench.iconTheme": "vscode-icons",
-	"workbench.colorTheme": "Atom Background Modified",
 	"editor.tabSize": 2,
 	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
@@ -75,7 +74,8 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[css]": {
-		"editor.defaultFormatter": "HookyQR.beautify"
+		// "editor.defaultFormatter": "HookyQR.beautify"
+		"editor.defaultFormatter": "vscode.css-language-features"
 	},
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -108,6 +108,7 @@
 	"liveServer.settings.donotVerifyTags": true,
 	"prettier.bracketSameLine": true,
 	"prettier.printWidth": 200,
+	"prettier.parser": "typescript",
 	"workbench.layoutControl.enabled": false,
 	"[dart]": {
 		"editor.formatOnSave": true,
@@ -168,7 +169,7 @@
 	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
 	"explorer.compactFolders": false,
 	"yaml.schemas": {
-		"file:///home/ioan/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+		"file:///home/ioan/.vscode/extensions/atlassian.atlascode-3.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
 	},
 	"atlascode.jira.jqlList": [
 		{
@@ -185,7 +186,8 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.parser": "babel-ts",
 	},
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"editor.mouseWheelZoom": true,
@@ -212,6 +214,96 @@
 	// },
 	"sonarlint.focusOnNewCode": false,
 	"workbench.editor.editorActionsLocation": "hidden",
-	"editor.minimap.enabled": false,
-	"prisma.showPrismaDataPlatformNotification": false
+	"prisma.showPrismaDataPlatformNotification": false,
+	"background.windowBackgrounds": ["/home/ioan/Pictures/wallpapers/space_clouds.jpg"],
+	"background.backgroundBlur": ["0", "0", "0", "0"],
+	"background.backgroundOpacity": [1, 0.9, 0.9, 0.9],
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+	"aws.telemetry": false,
+	"cSpell.language": "en,it",
+	"cSpell.dictionaries": ["en", "it"],
+	"cSpell.dictionaryDefinitions": [
+		{
+			"name": "en",
+			"path": "cspell-dict-en-us/cspell-ext.json"
+		},
+		{
+			"name": "it",
+			"path": "cspell-dict-it-it/cspell-ext.json"
+		}
+	],
+	"liveSassCompile.settings.autoprefix": [],
+	"editor.fontVariations": false,
+	"errorLens.enabledDiagnosticLevels": ["error", "warning"],
+	"window.density.editorTabHeight": "compact",
+	"cloudcode.autoDependencies": "off",
+	"editor.rulers": [],
+	"workbench.colorTheme": "Atom Background Modified",
+	"workbench.colorCustomizations": {
+		"[Atom Background Modified]": {
+			"editor.background": "#1c1c1c"
+		},
+		"[Atom Just Black]": {
+			"editor.background": "#0e0e0e",
+			"panel.background": "#0e0e0e",
+			"editorPane.background": "#0e0e0e",
+			"sideBar.background": "#0a0a0a",
+			"sideBar.foreground": "#a7a7a7",
+			"statusBar.background": "#1c1c1c",
+			"titleBar.activeBackground": "#1c1c1c",
+			"titleBar.inactiveBackground": "#3e3e3e",
+			"activityBar.background": "#0e0e0e",
+			"panel.border": "#1c1c1c",
+			"terminal.background": "#030202",
+			"dropdown.background": "#1c1c1c",
+			"input.background": "#2e2e2e",
+			"list.activeSelectionBackground": "#2a2a2a",
+			"list.inactiveSelectionBackground": "#333",
+			"button.background": "#3e3e3e",
+			"statusBar.noFolderBackground": "#0e0e0e",
+			"toolbar.activeBackground": "#0e0e0e",
+			"tab.inactiveBackground": "#0e0e0e",
+			"tab.activeBackground": "#1c1c1c",
+			"tab.inactiveForeground": "#a7a7a7",
+			"tab.activeForeground": "#c7c7c7",
+			"tab.border": "#0e0e0e",
+			"tab.activeBorder": "#a1a1a1",
+			"tab.hoverBackground": "#2a2a2a",
+			"tab.unfocusedHoverBackground": "#3a3a3a",
+			"editorGroup.border": "#0e0e0e",
+			"editorGroup.dropBackground": "#2a2a2a",
+			"editorGroupHeader.noTabsBackground": "#0e0e0e",
+			"editorGroupHeader.tabsBackground": "#0e0e0e",
+			"editorGroupHeader.border": "#0e0e0e",
+			"breadcrumb.background": "#0e0e0e"
+		}
+	},
+	"workbench.productIconTheme": "developer-icons",
+	"frosted-glass-theme.fakeMica.enabled": true,
+	"frosted-glass-theme.animation": {
+		"menu": "var(--fgt-animation-curve) fgtDropdown 0.1s",
+		"dialog": "var(--fgt-animation-curve) fgtZoomIn 0.1s",
+		"dropdown": "var(--fgt-animation-curve) fgtDropdown 0.1s",
+		"hover": "var(--fgt-animation-curve) fgtDropdown 0.1s",
+		"notificationCenter": "var(--fgt-animation-curve) fgtFlyout 0.3s, fgt-flipEffect 0.3s",
+		"notificationCenterHeader": "fgt-revealEffect 0.1s",
+		"notification": "",
+		"menuItem": "fgt-revealEffect 0.1s, fgt-flipEffect 0.1s",
+		"actionMenuItem": "",
+		"button": "fgt-revealEffect 0.1s, fgt-flipEffect 0.1s",
+		"iconActionLabel": "fgt-flipEffect 0.1s",
+		"tab": "fgt-revealEffect 0.1s, fgt-flipEffect 0.1s",
+		"listItem": "fgt-revealEffect 0.1s, fgt-flipEffect 0.1s",
+		"statusbarItem": "fgt-revealEffect 0.1s, fgt-flipEffect 0.1s",
+		"activitybarItem": "fgt-revealEffect 0.1s, fgt-flipEffect 0.1s",
+		"compositeBarItem": "fgt-revealEffect 0.1s, fgt-flipEffect 0.1s",
+		"commandCenter": "fgt-revealEffect 0.1s",
+		"menubarTitle": "fgt-flipEffect 0.1s",
+		"settingsTreeItem": ""
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"editor.indentSize": "tabSize",
+	"window.commandCenter": false,
 }

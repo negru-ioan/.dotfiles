@@ -16,7 +16,8 @@
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	aa = add --all
 	cm = commit -m
-	pom = push origin master
+	pom = push origin main
+	undo = reset --soft HEAD^
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
@@ -24,3 +25,26 @@
 	smudge = git-lfs smudge -- %f
 [core]
 	autocrlf = input
+[push]
+	autoSetupRemote = true
+	default = current
+[pull]
+	rebase = true
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+		line-numbers = true
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    # dark = true
+    # light = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
